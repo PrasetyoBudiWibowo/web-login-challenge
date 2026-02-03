@@ -35,16 +35,20 @@ Beberapa praktik keamanan yang diterapkan:
 
 ---
 
+
 ## Arsitektur Project
+
+```
 web-login-challenge
 │
 ├── README.md
 ├── server
-│ ├── routes/auth.js
-│ ├── middleware/authMiddleware.js
-│ ├── db.js
-│ └── index.js
-├── serverscreenshots
+│   ├── routes/auth.js
+│   ├── middleware/authMiddleware.js
+│   ├── db.js
+│   └── index.js
+│
+├── screenshots
 │   ├── desktop-login-kosong.jpg
 │   ├── desktop-username-salah.jpg
 │   ├── desktop-password-salah.jpg
@@ -54,10 +58,11 @@ web-login-challenge
 │   └── mobile-dashboard.jpg
 │
 └── client
-├── src/pages/Login.jsx
-├── src/pages/Dashboard.jsx
-├── src/ProtectedRoute.jsx
-└── src/api.js
+    ├── src/pages/Login.jsx
+    ├── src/pages/Dashboard.jsx
+    ├── src/ProtectedRoute.jsx
+    └── src/api.js
+```
 
 ## Cara Menjalankan Project
 
@@ -96,6 +101,8 @@ VALUES (
 
 ```
 
+---
+
 
 ## Cara Menjalankan Project
 
@@ -120,13 +127,16 @@ npm install
 npm run dev
 
 ## Screenshot
+
 ### Desktop
-![Login Kosong](screenshots/desktop-login-kosong)
-![Username Salah](screenshots/desktop-username-salah)
-![Password Salah](screenshots/desktop-password-salah)
-![Login Berhasil](screenshots/desktop-login-berhasil)
-![Dashboard](screenshots/desktop-dashboard)
+
+![Login Kosong](screenshots/desktop-login-kosong.jpg)
+![Username Salah](screenshots/desktop-username-salah.jpg)
+![Password Salah](screenshots/desktop-password-salah.jpg)
+![Login Berhasil](screenshots/desktop-login-berhasil.jpg)
+![Dashboard](screenshots/desktop-dashboard.jpg)
 
 ### Mobile
-![Login Mobile](screenshots/mobile-login)
-![Dashboard Mobile](screenshots/mobile-dashboard)
+
+![Login Mobile](screenshots/mobile-login.jpg)
+![Dashboard Mobile](screenshots/mobile-dashboard.jpg)
