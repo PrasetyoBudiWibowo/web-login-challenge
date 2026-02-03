@@ -103,28 +103,48 @@ VALUES (
 
 ---
 
-
 ## Cara Menjalankan Project
 
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/PrasetyoBudiWibowo/web-login-challenge.git
+cd web-login-challenge
+```
+
+### 2. Setup Backend
+
+```bash
 cd server
 npm install
+```
 
-buat file .env
-isi file .env
+Buat file `.env`
+
+```
 PORT=5000
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=your_password
 DB_NAME=test_login
 JWT_SECRET=secret_key
+```
 
+Jalankan server:
+
+```bash
 npm run dev
+```
 
-Setup Frontend
+### 3. Setup Frontend
 
+```bash
 cd client
 npm install
 npm run dev
+```
+
+---
 
 ## Screenshot
 
