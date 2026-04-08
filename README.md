@@ -146,17 +146,28 @@ npm run dev
 
 ---
 
-## Screenshot
+## 📸 Screenshot
 
-### Desktop
+### 💻 Desktop
 
-![Login Kosong](screenshots/desktop-login-kosong.jpg)
-![Username Salah](screenshots/desktop-username-salah.jpg)
-![Password Salah](screenshots/desktop-password-salah.jpg)
-![Login Berhasil](screenshots/desktop-login-berhasil.jpg)
-![Dashboard](screenshots/desktop-dashboard.jpg)
+- **Login - Form Kosong**
+  ![Login Kosong](screenshots/login-kosong.jpg)
 
-### Mobile
+- **Login - Format Email Tidak Valid**
+  ![Email Tidak Valid](screenshots/login-email-tidak-valid.jpg)
 
-![Login Mobile](screenshots/mobile-login.jpg)
-![Dashboard Mobile](screenshots/mobile-dashboard.jpg)
+- **Login - Password Salah**
+  ![Password Salah](screenshots/login-password-salah.jpg)
+
+- **Dashboard**
+  ![Dashboard](screenshots/dashboard.jpg)
+
+---
+
+### 📱 Mobile
+
+- **Login (Mobile)**
+  ![Login Mobile](screenshots/login-mobile.jpg)
+
+- **Dashboard (Mobile)**
+  ![Dashboard Mobile](screenshots/dashboard-mobile.jpg)
